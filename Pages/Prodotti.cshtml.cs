@@ -20,9 +20,9 @@ namespace WebAppProdotti.Pages
         {
             ElencoProdotti = new List<Prodotto>
             {
-                new Prodotto { Id = 1, Nome = "Prod 1", Prezzo = 100, Immagine = "./Images/1.jpg" },
-                new Prodotto { Id = 2, Nome = "Prod 2", Prezzo = 200, Immagine = "./Images/2.jpg"},
-                new Prodotto { Id = 3, Nome = "Prod 3", Prezzo = 300, Immagine = "./Images/3.jpg"}
+                new Prodotto { Id = 1, Nome = "Prod 1", Prezzo = 100, Dettaglio ="Dettaglio 1", Immagine = "./Images/1.jpg" },
+                new Prodotto { Id = 2, Nome = "Prod 2", Prezzo = 200, Dettaglio ="Dettaglio 2", Immagine = "./Images/2.jpg"},
+                new Prodotto { Id = 3, Nome = "Prod 3", Prezzo = 300, Dettaglio ="Dettaglio 3", Immagine = "./Images/3.jpg"}
             };
         }
     }

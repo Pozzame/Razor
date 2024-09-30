@@ -14,6 +14,7 @@
                 <th>Nome</th>
                 <th>Prezzo</th>
                 <th>Immagine</th>
+                <th>Link</th>
             </tr>
         </thead>
         <tbody>
@@ -26,6 +27,7 @@
                     <td>
                         <img src="@prodotto.Immagine" alt="Immagine di @prodotto.Nome"/>
                     </td>
+                    <td><a asp-page="DettaglioProdotto" asp-route-id="@prodotto.Id" asp-route-nome="@prodotto.Nome" asp-route-prezzo="@prodotto.Prezzo" asp-route-dettaglio="@prodotto.Dettaglio" asp-route-immagine="@prodotto.Immagine">Dettaglio</a></td>
                 </tr>
             }
         </tbody>
