@@ -19,9 +19,9 @@ namespace WebAppProdotti.Pages
         {
             ElencoProdotti = new List<Prodotto>
             {
-                new Prodotto { Nome = "Prod 1", Prezzo = 100 },
-                new Prodotto { Nome = "Prod 2", Prezzo = 200 },
-                new Prodotto { Nome = "Prod 3", Prezzo = 300 }
+                new Prodotto { Id = 1, Nome = "Prod 1", Prezzo = 100, Immagine = "./Images/1.jpg" },
+                new Prodotto { Id = 2, Nome = "Prod 2", Prezzo = 200, Immagine = "./Images/2.jpg"},
+                new Prodotto { Id = 3, Nome = "Prod 3", Prezzo = 300, Immagine = "./Images/3.jpg"}
             };
         }
     }

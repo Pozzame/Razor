@@ -10,16 +10,22 @@
     <table class="table">
         <thead>
             <tr>
+                <th>Id</th>
                 <th>Nome</th>
                 <th>Prezzo</th>
+                <th>Immagine</th>
             </tr>
         </thead>
         <tbody>
             @foreach (var prodotto in Model.ElencoProdotti)
             {
                 <tr>
+                    <td>@prodotto.Id</td>
                     <td>@prodotto.Nome</td>
                     <td>@prodotto.Prezzo</td>
+                    <td>
+                        <img src="@prodotto.Immagine" alt="Immagine di @prodotto.Nome"/>
+                    </td>
                 </tr>
             }
         </tbody>
