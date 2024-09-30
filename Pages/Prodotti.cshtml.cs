@@ -11,6 +11,7 @@ namespace WebAppProdotti.Pages
         public ProdottiModel(ILogger<ProdottiModel> logger)
         {
             _logger = logger;
+            _logger.LogInformation("Prodotti caricati");
         }
 
         public IEnumerable<Prodotto> ElencoProdotti { get; set; }

@@ -10,6 +10,7 @@ public class PrivacyModel : PageModel
     public PrivacyModel(ILogger<PrivacyModel> logger)
     {
         _logger = logger;
+        _logger.LogInformation("Privacyyyy");
     }
 
     public void OnGet()
